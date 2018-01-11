@@ -32,8 +32,21 @@ namespace TaskPerson
 
         public void PrintPersonInfo()
         {
-            Console.WriteLine($"Nimi: {Name}\nIkä: { this.age}");
+            Console.WriteLine($"Nimi: {Name}\nIkä: { this.age}\nAikuinen: {IsAdult()}");
         }
 
+        public bool IsAdult()
+        {
+            //return this.age >= 18;
+            if (this.age >= 18)
+                return true;
+            else
+                return false;
+        }
+
+        public int GetAge()
+        {
+            return this.age;
+        }
     }
 }

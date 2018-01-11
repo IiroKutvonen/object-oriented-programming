@@ -11,7 +11,7 @@ namespace TaskPerson
             personJouni.GrowOld();
             personJouni.PrintPersonInfo();
 
-            Person newPerson = new Person("Joe Doe", 18);
+            Person newPerson = new Person("Joe Doe", 17);
             newPerson.PrintPersonInfo();
             newPerson.GrowOld();
             newPerson.PrintPersonInfo();
