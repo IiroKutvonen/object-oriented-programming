@@ -17,8 +17,10 @@ namespace TaskBook
         public void PrintBookInfo()
         {
             Console.WriteLine($"Nimi: {Utils.CreateTitle()}");
+            Console.WriteLine($"Kirjailija: {Utils.CreateAuthor()}");
             Console.WriteLine($"Id-numero: {Utils.CreateId(10)}");
             Console.WriteLine($"Hinta: {Utils.CreatePrice()}");
         }
-    }
+
+         }
 }
