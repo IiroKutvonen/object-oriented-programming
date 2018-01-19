@@ -53,5 +53,10 @@ namespace TaskPerson
         {
             return this.age;
         }
+
+        public Person(Person previousPerson)
+        {
+            Name = previousPerson.Name;
+        }
     }
 }
