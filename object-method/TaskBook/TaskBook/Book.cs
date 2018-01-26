@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace TaskBook
 {
     class Book
@@ -12,8 +13,6 @@ namespace TaskBook
         public int Id;
         public string Price;
 
-            
-
         public void PrintBookInfo()
         {
             Console.WriteLine($"Nimi: {Utils.CreateTitle()}");
@@ -22,5 +21,5 @@ namespace TaskBook
             Console.WriteLine($"Hinta: {Utils.CreatePrice()}");
         }
 
-         }
+    }
 }

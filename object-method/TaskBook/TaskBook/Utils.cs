@@ -23,7 +23,7 @@ namespace TaskBook
 
         public static string CreateTitle()
         {
-            string[] bookTitles = new string[] { "Aapinen", "Virikirja", "C#", "Olio-ohjemointi" };
+            string[] bookTitles = new string[] { "Knitting for Beginners", "Murder Alley", "Black Nights", "How to get on a bus for Dummies" };
             return bookTitles[rnd.Next(bookTitles.Length)];
 
         }

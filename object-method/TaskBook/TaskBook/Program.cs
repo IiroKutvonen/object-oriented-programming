@@ -6,8 +6,8 @@ namespace TaskBook
     {
         static void Main(string[] args)
         {
-            Book bookOne = new Book();          
-            bookOne.PrintBookInfo();            
+            Book bookOne = new Book();
+            bookOne.PrintBookInfo();
             Console.ReadKey();
         }
     }
